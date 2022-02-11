@@ -10,10 +10,13 @@ A small little e-Ink dashboard that displays the online status of your IoT devic
 
 ## Display stand assembly:
 1. Assemble Pibow Zero 2 W ([link to Pimoroni's guide](https://learn.pimoroni.com/article/pibow-zero-assembly))
-2. Attach the Inky PHat on top of the case, it should fit perfectly
+2. Attach the Inky PHat to your pi, it should sit nicely on top of the Pibow case
+   <Insert Images>
 3. Remove one handle from the binder clip
-4. With an adhesive of your choice (hot glue works well) attach the bottom of the case to the side of the binder clip without a handle.
-
+   <Insert Images>
+5. With an adhesive of your choice (hot glue works well) attach the bottom of the case to the side of the binder clip without a handle.
+   <Insert Images>
+      
 ## How to use:
 
 1. Clone this repo to the home directory of your pi
