@@ -1,4 +1,4 @@
-# statusPi: a minimal e-Ink IoT dashboard
+# statusPi: a tiny & minimal e-Ink IoT dashboard
 ## Description:
 A small little e-Ink dashboard that displays the online status of your IoT devices. Status is marked as **online** if pinging it results in a response and **offline** otherwise.
 ## Things needed:
