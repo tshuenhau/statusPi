@@ -22,7 +22,7 @@ from check_ping import check_ping
 rowHeight = inky_display.HEIGHT/4
 columnWidth = (inky_display.WIDTH / 2) 
 
-mainSectionYOffset = 3
+mainSectionYOffset = 5
 
 x, y = font.getsize("A")
 xMargin = (inky_display.WIDTH / 15)
