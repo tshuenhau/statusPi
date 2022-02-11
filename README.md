@@ -8,7 +8,7 @@ A small little e-Ink dashboard that displays the online status of your IoT devic
 - Pimoroni Pibow Zero 2 W
 - Binder Clip
 
-## Case assembly:
+## Display stand assembly:
 1. Assemble Pibow Zero 2 W ([link to Pimoroni's guide](https://learn.pimoroni.com/article/pibow-zero-assembly))
 2. Attach the Inky PHat on top of the case, it should fit perfectly
 3. Remove one handle from the binder clip
