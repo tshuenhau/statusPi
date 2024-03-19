@@ -44,17 +44,17 @@ def setStatusColor(status):
 		return inactiveColor
 
 #algotrading
-algotradingStatus = check_ping("192.168.1.205")
+algotradingStatus = check_ping("XXX.XXX.X.XXX")
 draw.text((xMargin, yMargin + mainSectionYOffset), "algotrading", inky_display.BLACK, font)
 draw.ellipse(((circleXStart, circleYMargin + mainSectionYOffset),(circleXStart + circleDiameter, circleYMargin + circleDiameter + mainSectionYOffset)),setStatusColor(algotradingStatus), inky_display.BLACK)
 
 #autogate
-autogateStatus = check_ping("192.168.1.76")
+autogateStatus = check_ping("XXX.XXX.X.XXX")
 draw.text((xMargin, yMargin + rowHeight + mainSectionYOffset), "autogate",inky_display.BLACK,font)
 draw.ellipse(((circleXStart, circleYMargin + rowHeight + mainSectionYOffset),(circleXStart + circleDiameter, circleYMargin + rowHeight + circleDiameter + mainSectionYOffset)),setStatusColor(autogateStatus), inky_display.BLACK)
 
 #pihole
-piholeStatus = check_ping("192.168.1.170")
+piholeStatus = check_ping("XXX.XXX.X.XXX")
 
 draw.text((xMargin, yMargin+ rowHeight*2 + mainSectionYOffset), "pihole", inky_display.BLACK, font)
 draw.ellipse(((circleXStart, circleYMargin + rowHeight*2 + mainSectionYOffset),(circleXStart + circleDiameter, circleYMargin + rowHeight*2 + circleDiameter + mainSectionYOffset)),setStatusColor(piholeStatus), inky_display.BLACK)
